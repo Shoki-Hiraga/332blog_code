@@ -8,4 +8,3 @@ public class Ko extends Oya {
 
     }
 }
-    
