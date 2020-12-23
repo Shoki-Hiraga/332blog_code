@@ -1,0 +1,20 @@
+//138P 練習問題
+//答えとは違うが正常に動いた
+public class 138P練習問題 {
+    public static void main(String[] args){
+    System.out.print("数当てゲーム");
+
+        for (int ans = new java.util.Random(). nextInt(10); ans < 10;){
+        System.out.println("0～9の数字を入力してください");
+        int num = new java.util.Scanner(System.in) .nextInt();
+
+            if (num == ans){
+            System.out.println("当たり！");
+            break;
+            } else {
+            System.out.println("違います");
+            }
+        }
+    System.out.println("ゲームを終了します。");
+    }
+}

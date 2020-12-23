@@ -1,0 +1,12 @@
+public class Main {
+	public static void main(String[] args) {
+    int[][] socres = {{10, 20, 30}, {40, 50, 60,}};
+    System.out.println(socres[0][1]);
+    
+    System.out.println(socres.length + " 縦をカウント");
+    
+    System.out.println(socres[0].length + " 横の上段をカウント");
+    
+    System.out.println(socres[1].length + " 横の下段をカウント");
+	}
+}
