@@ -1,0 +1,23 @@
+public class Main {
+    public static void main(String[] args) {
+        ThisOperation ts = new ThisOperation();
+        ts.This();
+    }
+}
+
+
+
+public class ThisOperation {
+String hensuu = "クラス(メンバ)変数";
+int strVariable = 0;
+
+    public void This() {
+        String hensuu = "ローカル変数";
+        int strVariable = 1;
+        
+    System.out.println("クラス(メンバ)変数 String型 " + this.hensuu);
+    System.out.println("クラス(メンバ)変数int型 " + this.strVariable);
+    System.out.println("ローカル変数String型 " + hensuu);
+    System.out.println("ローカル変数int型 " + strVariable);
+    }
+}

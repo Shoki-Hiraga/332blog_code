@@ -1,0 +1,3 @@
+privateのクラス型フィールドを取得出来ず断念
+getterとsetterを活用するも動作せず。NullExpecitonが出てしまう。
+Mainメソッド内部に記述済み。
