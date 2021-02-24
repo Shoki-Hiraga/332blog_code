@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+/*!
+Theme Name: Simplicity2 child
+Template:   simplicity2
+Version:    20161002
+*/
+
+/* Simplicity子テーマ用のスタイルを書く */
+
+/*ボタンの基本設定*/
+.shoplinkamazon a, .shoplinkrakuten a, .shoplinkyahoo a, .shoplinkaliexpress a, .shoplinkebay a {
+display: block;
+text-decoration: none;
+text-align: center;
+padding: 13px;
+}
+/*amazonのボタンの装飾*/
+.shoplinkamazon a {
+background: #000080;
+border-radius: 7px;
+color: #fff;
+}
+/*楽天のボタンの装飾*/
+.shoplinkrakuten a {
+background: #ff0000;
+border-radius: 7px;
+color: #fff;
+}
+/*yahooのボタンの装飾*/
+.shoplinkyahoo a {
+background: #00bfff;
+border-radius: 7px;
+color: #fff;
+}
+/*アリーエクスプレスのボタン装飾*/
+.shoplinkaliexpress a {
+background: #ff8c00;
+border-radius: 7px;
+color: #fff;
+}
+
+/*ebayのボタン装飾*/
+.shoplinkebay a {
+background: #008000;
+border-radius: 7px;
+color: #fff;
+}
+
+/*カエレバボックス全体の装飾*/
+.kaerebalink-box {
+border: 1px #9C9996 solid;/*回りの線の装飾*/
+margin: 20px 0;
+display: flex;
+align-items: center;
+padding: 20px;
+box-sizing: border-box;
+justify-content: space-around;
+}
+@media screen and (max-width: 640px) {
+.kaerebalink-box {
+display: block;
+}
+}
+.booklink-footer {
+display: none;
+}
+.kaerebalink-info {
+width: 43%;/*右側のテキストのボックスの横幅*/
+font-size: 16px;/*文字のサイズ*/
+}
+@media screen and (max-width: 640px) {
+.kaerebalink-info {
+width: 100%;
+}
+}
+@media screen and (max-width: 640px) {
+.kaerebalink-image {
+margin: 0 0 20px 0!important;
+text-align: center;
+float: none!important;
+}
+}
